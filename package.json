@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:foxdot.start"
 	],
-	"main": "./extension.js",
+	"main": "./foxdot.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "foxdot.start",
+				"title": "FoxDot start"
 			}
 		]
 	},
