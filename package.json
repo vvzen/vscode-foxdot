@@ -19,6 +19,14 @@
 				"command": "foxdot.start",
 				"title": "FoxDot start"
 			}
+		],
+		"keybindings": [
+			{
+				"command": "foxdot.evaluateSelection",
+				"key": "ctrl+enter",
+				"mac": "cmd+enter",
+				"when": "editorTextFocus"
+			}
 		]
 	},
 	"scripts": {
