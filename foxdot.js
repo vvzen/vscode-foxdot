@@ -70,7 +70,26 @@ function deactivate() {
 }
 
 function evaluateSelection(){
-	const selectedText = editor.document.getText(editor.selection);
+
+	let selection = editor.selection;
+
+	let firstSelectedLine = editor.document.lineAt(selection.start.line);
+	let lastSelectedLine = editor.document.lineAt(selection.end.line);
+
+	// Expand the selection to the start and end of the respective lines
+	let firstChar = firstSelectedLine.range.start.character;
+	if (firstChar != 0){
+		firstSelectedLine.range.start.translate(-firstChar);
+	}
+
+	let lastChar = lastSelectedLine.range.end.character;
+	if (lastChar != lastSelectedLine.text.length-1){
+		lastSelectedLine.range.end.translate(lastSelectedLine.text.length + lastChar - 1);
+	}
+
+	let selectedRange = new vscode.Range(firstSelectedLine.range.start, lastSelectedLine.range.end);
+
+	const selectedText = editor.document.getText(selectedRange);
 	evaluateCode(selectedText);
 }
 
@@ -78,10 +97,7 @@ function evaluateSelection(){
  * @param {string} code
  */
 function evaluateCode(code) {
-	console.log(`evaluating: ${code}..`);
-
-	foxDotProcess.stdin.write(code);
-	foxDotProcess.stdin.write('\n\n');
+	foxDotProcess.stdin.write(`${code}\n\n`);
 }
 
 module.exports = {
