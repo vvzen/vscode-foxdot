@@ -46,7 +46,7 @@ To do
 
 Not much to say, this is my first vscode extension. :)
 
-### 0.0.1
+### 0.0.2
 
 Initial release.
 
