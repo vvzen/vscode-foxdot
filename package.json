@@ -2,7 +2,7 @@
 	"name": "vscode-foxdot",
 	"displayName": "VSCode-FoxDot",
 	"description": "A FoxDot extension for Visual Studio Code",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.42.0"
 	},
