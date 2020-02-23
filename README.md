@@ -27,15 +27,11 @@ FoxDot must be installed in the current active python environment (the one you c
 ![images/python_env.png](images/python_env.png)
 
 I suggest using conda and installing FoxDot in its own conda environment in order to avoid messing up your system python or your other modules.
-Vscode plays nicely with conda, so once you created your conda env you will just need to click on the right bottom corner and select it:
+VSCode plays nicely with conda, so once you created your conda env you will just need to click on the right bottom corner and select it:
 
 ![images/python_env.png](images/python_env_2.png)
 
 ## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
 
 This extension contributes the following settings:
 
