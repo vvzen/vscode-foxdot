@@ -29,6 +29,10 @@
 			}
 		]
 	},
+	"publisher": "vvzen",
+	"repository": {
+		"url": "https://github.com/vvzen/vscode-foxdot"
+	},
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
