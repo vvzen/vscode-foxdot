@@ -4,6 +4,14 @@
 
 Perform your live coding music with FoxDot from Visual Studio Code.
 
+Use `cmd (or ctrl) + shift + P` to run the `FoxDot start` command.
+
+![images/foxdot_start.png](images/foxdot_start.png)
+
+If everything goes well, you'll see a message telling you that FoxDot started correctly.
+
+![images/foxdot_started.png](images/foxdot_started.png)
+
 ## Current Features
 
 * Start FoxDot within vscode ✅
