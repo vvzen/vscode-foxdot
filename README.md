@@ -1,6 +1,6 @@
 # vscode-foxdot
 
-[ This extension is currently very WIP]
+[ ⚠️ This extension is currently very WIP ⚠️ ]
 
 Perform your live coding music with FoxDot from Visual Studio Code.
 
