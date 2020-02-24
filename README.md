@@ -56,8 +56,8 @@ To do
 
 Not much to say, this is my first vscode extension. :)
 
-### 0.0.2
+### 0.0.3
 
-Initial release.
+Added logo
 
 **Enjoy!**
