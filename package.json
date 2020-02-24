@@ -1,5 +1,6 @@
 {
 	"name": "vscode-foxdot",
+	"icon": "images/vscodefoxdot_logo.png",
 	"displayName": "VSCode-FoxDot",
 	"description": "A FoxDot extension for Visual Studio Code",
 	"version": "0.0.2",
