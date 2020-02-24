@@ -56,7 +56,7 @@ To do
 
 Not much to say, this is my first vscode extension. :)
 
-### 0.0.3
+### 0.0.4
 
 Added logo
 
