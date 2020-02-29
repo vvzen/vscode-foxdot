@@ -6,7 +6,8 @@ Perform your live coding music with FoxDot from Visual Studio Code.
 
 ## How to use
 
-Once the extension is installed, use `cmd (or ctrl) + shift + P` to run the `FoxDot start` command.
+Once the extension is installed, use `cmd (or ctrl) + shift + P` to run the `FoxDot start` command,
+which will make other the other commands ready to be used.
 
 ![images/foxdot_start.png](images/foxdot_start.png)
 
@@ -32,7 +33,7 @@ If everything goes well, you'll see a message telling you that FoxDot started co
 
 ## Requirements
 
-FoxDot must be installed in the current active python environment (the one you can see in the lower left corner, in this case, the "algomusic" environment)
+FoxDot must be installed in the current active python environment (the one you can see in the lower left corner, in this case, the "algomusic" environment).
 
 ![images/python_env.png](images/python_env.png)
 
@@ -47,6 +48,7 @@ This extension contributes the following settings:
 
 * `foxdot.start`: starts FoxDot
 * `foxdot.evaluateSelection`: (or cmd(ctrl)+enter) to send the selection to FoxDot
+* `foxdot.openFolder`: open the current FoxDot folder in the python site-packages dir
 
 ## Known Issues
 
@@ -54,9 +56,9 @@ To do
 
 ## Release Notes
 
-Not much to say, this is my first vscode extension. :)
+Add open folder support (tested only on mac)
 
-### 0.0.4
+### 0.0.5
 
 Added logo
 

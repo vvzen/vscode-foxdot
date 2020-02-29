@@ -18,7 +18,15 @@
 		"commands": [
 			{
 				"command": "foxdot.start",
-				"title": "FoxDot start"
+				"title": "FoxDot - Start"
+			},
+			{
+				"command": "foxdot.stop",
+				"title": "FoxDot - Stop"
+			},
+			{
+				"command": "foxdot.openFolder",
+				"title": "FoxDot - Open Folder"
 			}
 		],
 		"keybindings": [
