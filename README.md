@@ -56,10 +56,10 @@ To do
 
 ## Release Notes
 
+### 0.0.5
 Add open folder support (tested only on mac)
 
-### 0.0.5
-
-Added logo
+### 0.0.4
+Add logo
 
 **Enjoy!**
